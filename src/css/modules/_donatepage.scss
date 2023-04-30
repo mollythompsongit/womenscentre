@@ -51,9 +51,9 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 0px;
     justify-content: space-evenly;
-    margin-bottom: 15px
+    border-bottom: 1px solid $darkpink;
 }
 
 .donate-box {

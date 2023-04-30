@@ -436,8 +436,6 @@ input:focus {
 .aboutus-header-container {
   width: 100%;
   height: auto;
-  background-color: #FFEBF5;
-  padding-top: 35px;
 }
 
 .aboutus-header {
@@ -448,12 +446,36 @@ input:focus {
 }
 
 .aboutus-header-subtext {
-  font-size: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  font-size: 16px;
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 22px;
   font-family: "Noto Sans", sans-serif;
-  line-height: 20px;
+  line-height: 23px;
+  background-color: whitesmoke;
+}
+
+.ourteam-title {
+  font-size: 20px;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: whitesmoke;
+}
+
+.ourteam-title-vision {
+  font-size: 20px;
+  color: #E9418B;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #FFEBF5;
 }
 
 .item {
@@ -461,7 +483,9 @@ input:focus {
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: whitesmoke;
 }
 
 .item:nth-child(2) {
@@ -469,26 +493,38 @@ input:focus {
 }
 
 .aboutus-images {
-  width: 170px;
+  width: 80%;
   height: auto;
   padding-top: 20px;
+  padding-bottom: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .aboutus-titles {
-  font-size: 18px;
+  font-size: 22px;
   color: #E9418B;
-  padding: 15px;
   font-family: "Quicksand", sans-serif;
+  width: 100%;
+  text-align: center;
 }
 
 .aboutus-text {
-  font-size: 15px;
-  padding: 15px;
+  font-size: 16px;
+  padding: 20px;
   font-family: "Noto Sans", sans-serif;
-  line-height: 20px;
+  line-height: 23px;
+}
+
+.vision-subtext {
+  font-size: 16px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-left: 20px;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 23px;
+  text-align: left;
 }
 
 .whatweoffer-container {
@@ -872,9 +908,9 @@ input {
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 0px;
   justify-content: space-evenly;
-  margin-bottom: 15px;
+  border-bottom: 1px solid #E9418B;
 }
 
 .donate-box {
@@ -1348,7 +1384,7 @@ a:active {
     font-family: "Quicksand", sans-serif;
   }
   .aboutus-header-subtext {
-    font-size: 17px;
+    font-size: 19px;
     padding-left: 22px;
     padding-right: 22px;
     padding-bottom: 22px;
@@ -1356,64 +1392,70 @@ a:active {
     line-height: 25px;
   }
   .aboutus-titles {
-    font-size: 20px;
-    color: #E9418B;
+    font-size: 24px;
     padding: 22px;
-    font-family: "Quicksand", sans-serif;
+    text-align: left;
   }
   .aboutus-text {
-    font-size: 17px;
+    font-size: 19px;
     padding-left: 22px;
     padding-right: 22px;
     padding-bottom: 22px;
     font-family: "Noto Sans", sans-serif;
     line-height: 25px;
-    display: flex;
+  }
+  .ourteam-title-vision {
+    font-size: 24px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .vision-subtext {
+    font-size: 19px;
+    padding-left: 2px;
+  }
+  .ourteam-title {
+    font-size: 24px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .item {
+    padding-top: 0px;
   }
   .aboutus-images {
-    width: 30%;
+    width: 25%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: right;
   }
   .item:nth-child(2) {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    -webkit-box-align: start;
-    -moz-box-align: start;
-    -ms-flex-align: start;
-    -webkit-align-items: flex-start;
-    align-items: flex-start;
-  }
-  .item:nth-child(2) .post-text {
-    -webkit-box-ordinal-group: 2;
-    -moz-box-ordinal-group: 2;
-    -ms-flex-order: 2;
-    -webkit-order: 2;
-    order: 2;
-  }
-  .item:nth-child(2) .aboutus-images {
-    -webkit-box-ordinal-group: 1;
-    -moz-box-ordinal-group: 1;
-    -ms-flex-order: 1;
-    -webkit-order: 1;
-    order: 1;
-    padding-left: 10px;
-    padding-right: 40px;
+    font-size: 24px;
+    padding: 22px;
+    text-align: left;
   }
   .item:nth-child(2) .aboutus-titles {
-    width: 93%;
-    text-align: right;
+    font-size: 24px;
+    padding: 22px;
+    text-align: left;
+    padding-left: 0px;
+  }
+  .item:nth-child(2) .aboutus-images {
+    width: 25%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 20px;
+    float: right;
+  }
+  .item:nth-child(2) .aboutus-text {
+    font-size: 19px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 25px;
+    padding-left: 0px;
   }
   .offer-boxes-container {
     padding-top: 10px;
@@ -1761,6 +1803,37 @@ a:active {
     line-height: 30px;
     padding-left: 35px;
     padding-right: 35px;
+  }
+  .aboutus-images {
+    width: 25%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 35px;
+    padding-left: 35px;
+    float: right;
+  }
+  .item:nth-child(2) .aboutus-images {
+    width: 25%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 35px;
+    padding-left: 35px;
+    float: right;
+  }
+  .item:nth-child(2) .aboutus-titles {
+    font-size: 35px;
+    padding-left: 35px;
+  }
+  .item:nth-child(2) .post-text {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 15px;
+  }
+  .ourteam-title-vision {
+    padding-left: 35px;
+  }
+  .ourteam-title {
+    padding-left: 35px;
   }
   .aboutus-titles {
     font-size: 35px;
@@ -2152,17 +2225,17 @@ a:active {
   .aboutus-header {
     font-size: 40px;
     padding: 22px;
-    padding-left: 45px;
+    padding-left: 65px;
   }
   .aboutus-header-subtext {
     font-size: 25px;
     line-height: 35px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 65px;
+    padding-right: 65px;
   }
   .aboutus-titles {
     font-size: 40px;
-    padding-left: 45px;
+    padding-left: 65px;
   }
   .post-text {
     font-size: 25px;
@@ -2170,6 +2243,35 @@ a:active {
     padding-left: 25px;
   }
   .aboutus-images {
+    padding-right: 25px;
+    margin-top: -75px;
+  }
+  .ourteam-title-vision {
+    padding-left: 65px;
+    font-size: 30px;
+  }
+  .vision-subtext {
+    font-size: 25px;
+    padding-left: 0px;
+  }
+  .ourteam-title {
+    padding-left: 65px;
+    font-size: 30px;
+  }
+  .aboutus-text {
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 22px;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 25px;
+  }
+  .item:nth-child(2) .post-text {
+    font-size: 25px;
+    line-height: 35px;
+    padding-left: 35px;
+  }
+  .item:nth-child(2) .aboutus-images {
     padding-right: 25px;
     margin-top: -75px;
   }
@@ -2337,7 +2439,7 @@ a:active {
     margin-bottom: 160px;
   }
   #item-container {
-    margin-bottom: 45px;
+    margin-bottom: 0px;
   }
   .donation-headers {
     width: 60%;

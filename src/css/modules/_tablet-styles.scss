@@ -286,7 +286,7 @@
     }
 
     .aboutus-header-subtext {
-        font-size: 17px;
+        font-size: 19px;
         padding-left: $large-padding;
         padding-right: $large-padding;
         padding-bottom: $large-padding;
@@ -295,69 +295,79 @@
     }
 
     .aboutus-titles {
-        font-size: 20px;
-        color: $darkpink;
-        padding: $large-padding;
-        font-family: $quicksand;
+        font-size: 24px;
+        padding: 22px;
+        text-align: left;
     }
 
     .aboutus-text {
-        font-size: 17px;
+        font-size: 19px;
         padding-left: $large-padding;
         padding-right: $large-padding;
         padding-bottom: $large-padding;
         font-family: $noto;
         line-height: 25px;
-        display: flex;
+    }
+
+    .ourteam-title-vision {
+        font-size: 24px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .vision-subtext {
+        font-size: 19px;
+        padding-left: 2px;
+    }
+
+    .ourteam-title {
+        font-size: 24px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .item {
+        padding-top: 0px;
     }
 
     .aboutus-images {
-        width: 30%;
+        width: 25%;
         height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 40px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+        float: right;
     }
 
     .item:nth-child(2) {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -moz-box-orient: vertical;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        -webkit-box-align: start;
-        -moz-box-align: start;
-        -ms-flex-align: start;
-        -webkit-align-items: flex-start;
-        align-items: flex-start;
+        font-size: 24px;
+        padding: 22px;
+        text-align: left;
 
-        .post-text {
-            -webkit-box-ordinal-group: 2;
-            -moz-box-ordinal-group: 2;
-            -ms-flex-order: 2;
-            -webkit-order: 2;
-            order: 2;
+        .aboutus-titles {
+            font-size: 24px;
+            padding: 22px;
+            text-align: left;
+            padding-left: 0px;
         }
 
         .aboutus-images {
-            -webkit-box-ordinal-group: 1;
-            -moz-box-ordinal-group: 1;
-            -ms-flex-order: 1;
-            -webkit-order: 1;
-            order: 1;
-            padding-left: 10px;
-            padding-right: 40px;
+            width: 25%;
+            height: auto;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-left: 20px;
+            float: right;
         }
 
-        .aboutus-titles {
-            width: 93%;
-            text-align: right;
+        .aboutus-text {
+            font-size: 19px;
+            padding-left: $large-padding;
+            padding-right: $large-padding;
+            padding-bottom: $large-padding;
+            font-family: $noto;
+            line-height: 25px;
+            padding-left: 0px;
         }
     }
 

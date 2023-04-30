@@ -225,6 +225,45 @@
         padding-right: 35px;
     }
 
+    .aboutus-images {
+        width: 25%;
+        height: auto;
+        padding-left: 0px;
+        padding-right: 35px;
+        padding-left: 35px;
+        float: right;
+    }
+
+    .item:nth-child(2) {
+        .aboutus-images {
+            width: 25%;
+            height: auto;
+            padding-left: 0px;
+            padding-right: 35px;
+            padding-left: 35px;
+            float: right;
+        }
+
+        .aboutus-titles {
+            font-size: 35px;
+            padding-left: 35px;
+        }
+
+        .post-text {
+            font-size: 20px;
+            line-height: 30px;
+            padding-left: 15px;
+        }
+    }
+
+    .ourteam-title-vision {
+        padding-left: 35px;
+    }
+
+    .ourteam-title {
+        padding-left: 35px;
+    }
+
     .aboutus-titles {
         font-size: 35px;
         padding-left: 35px;
@@ -714,19 +753,19 @@
     .aboutus-header {
         font-size: 40px;
         padding: $large-padding;
-        padding-left: 45px;
+        padding-left: 65px;
     }
 
     .aboutus-header-subtext {
         font-size: 25px;
         line-height: 35px;
-        padding-left: 45px;
-        padding-right: 45px;
+        padding-left: 65px;
+        padding-right: 65px;
     }
 
     .aboutus-titles {
         font-size: 40px;
-        padding-left: 45px;
+        padding-left: 65px;
     }
 
     .post-text {
@@ -738,6 +777,43 @@
     .aboutus-images {
         padding-right: 25px;
         margin-top: -75px;
+    }
+
+    .ourteam-title-vision {
+        padding-left: 65px;
+        font-size: 30px;
+    }
+
+    .vision-subtext {
+        font-size: 25px;
+        padding-left: 0px;
+    }
+
+    .ourteam-title {
+        padding-left: 65px;
+        font-size: 30px;
+    }
+
+    .aboutus-text {
+        font-size: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 22px;
+        font-family: "Noto Sans", sans-serif;
+        line-height: 25px;
+    }
+
+    .item:nth-child(2) {
+        .post-text {
+            font-size: 25px;
+            line-height: 35px;
+            padding-left: 35px;
+        }
+
+        .aboutus-images {
+            padding-right: 25px;
+            margin-top: -75px;
+        }
     }
 
     // WHAT WE OFFER PAGE
@@ -943,7 +1019,7 @@
     }
 
     #item-container {
-        margin-bottom: 45px;
+        margin-bottom: 0px;
     }
 
     .donation-headers {

@@ -1,8 +1,6 @@
 .aboutus-header-container {
     width: 100%;
     height: auto;
-    background-color: $lightpink;
-    padding-top: 35px;
 }
 
 .aboutus-header {
@@ -13,12 +11,36 @@
 }
 
 .aboutus-header-subtext {
-    font-size: 15px;
-    padding-left: $med-padding;
-    padding-right: $med-padding;
+    font-size: 16px;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: $large-padding;
     font-family: $noto;
-    line-height: 20px;
+    line-height: 23px;
+    background-color: whitesmoke;
+}
+
+.ourteam-title {
+    font-size: 20px;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+.ourteam-title-vision {
+    font-size: 20px;
+    color: #E9418B;
+    font-family: "Quicksand", sans-serif;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $lightpink;
 }
 
 .item {
@@ -26,7 +48,9 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: $large-padding;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
 }
 
 .item:nth-child(2) {
@@ -34,24 +58,36 @@
 }
 
 .aboutus-images {
-    width: 170px;
+    width: 80%;
     height: auto;
     padding-top: 20px;
+    padding-bottom: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .aboutus-titles {
-    font-size: 18px;
+    font-size: 22px;
     color: $darkpink;
-    padding: $med-padding;
     font-family: $quicksand;
+    width: 100%;
+    text-align: center;
 }
 
 .aboutus-text {
-    font-size: 15px;
-    padding: $med-padding;
+    font-size: 16px;
+    padding: 20px;
     font-family: $noto;
-    line-height: 20px;
+    line-height: 23px;
+}
+
+.vision-subtext {
+    font-size: 16px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-family: $noto;
+    line-height: 23px;
+    text-align: left;
 }
